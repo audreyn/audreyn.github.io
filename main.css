@@ -1,3 +1,14 @@
 body {
-	background: black;
+	background-color: #B2CECF;
+	font-family: 'Source Sans Pro', sans-serif;
+} 
+#banner {
+	background-color: #D02552;
+	border-bottom: 5px solid #fff;
+	border-top: 5px solid #fff;
+	padding: 15px 0 15px 0;
+}
+.content {
+	color: white;
+	width: 90%;
 }
