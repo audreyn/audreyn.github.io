@@ -48,7 +48,7 @@ h3, h4 {
   -webkit-border-radius: 20px; 
   border-radius: 20px;
 }
-#circle { 
+.circle {
    width: 140px;
    height: 140px;
    background: blue; 
