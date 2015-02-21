@@ -6,14 +6,19 @@ h1 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+h3, h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 #banner {
 	background-color: #e83556;
 	border-bottom: 5px solid #fff;
 	border-top: 5px solid #fff;
 	padding: 15px 0 15px 0;
 }
-.container {
+.user-presentation {
 	color: white;
+    margin-left: 20px;
 }
 .bloc { 
   width:auto;
@@ -31,9 +36,6 @@ h1 {
   width: 40px;
   height: 40px;
   background: #7B1C2D; 
-  width:40px;
-  height:40px;
-  border-radius:20px;
   font-size:20px;
   color:#fff;
   line-height:40px;
@@ -49,4 +51,119 @@ h1 {
    -moz-border-radius: 70px; 
    -webkit-border-radius: 70px; 
    border-radius: 70px;
+}
+
+.social-networks a {
+    display: inline-block;
+}
+
+@media screen and (min-width: 951px) {
+    h1 {
+        margin-top: 0;
+    }
+    #banner {
+        display: table;
+        width: 100%;
+    }
+
+    .social-networks, .user-presentation {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .user-presentation {
+        padding-left: 130px;
+    }
+
+    .social-networks {
+        padding-top: 15px;
+        text-align: right;
+        padding-right: 130px;
+    }
+
+    .social-networks a:not(:last-of-type) {
+        margin-right: 60px;
+    }
+
+}
+@media screen and (min-width: 621px) and (max-width: 950px) {
+    h1 {
+        margin-top: 0;
+    }
+    #banner {
+        display: table;
+        width: 100%;
+    }
+    
+    .social-networks, .user-presentation {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .user-presentation {
+        padding-left: 30px;
+    }
+
+    .social-networks {
+        padding-top: 15px;
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    .social-networks a:not(:last-of-type) {
+        margin-right: 35px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 620px) {
+    .social-networks a:first-of-type {
+        margin-left: 20px;
+    }
+
+    .social-networks a {
+        margin-right: 30px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 320px) {
+    h1 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1em;
+    }
+    h3, h4 {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    h3 {
+        font-size: 0.8em;
+    }
+
+    h4 {
+        font-size: 0.6em;
+    }
+
+    .social-networks a {
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+
+    .social-networks a:first-of-type {
+        margin-left: 15px;
+    }
+
+    .small-circle {
+        width: 30px;
+        height: 30px;
+        background: #7B1C2D;
+        font-size:13px;
+        color:#fff;
+        line-height:30px;
+        text-align:center;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+    }
+
 }
