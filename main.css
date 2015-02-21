@@ -1,5 +1,5 @@
 body {
-	background-color: #e3dced;
+	background-color: #f0e6e4;
 	font-family: 'Source Sans Pro', sans-serif;
 } 
 h1 {
@@ -11,13 +11,13 @@ h3, h4 {
     margin-bottom: 10px;
 }
 #banner {
-	background-color: #e83556;
+	background-color: #877777;
 	border-bottom: 5px solid #fff;
 	border-top: 5px solid #fff;
 	padding: 15px 0 15px 0;
 }
 .user-presentation {
-	color: white;
+	color: #f0e6e4;
     margin-left: 20px;
 }
 .bloc { 
@@ -35,9 +35,9 @@ h3, h4 {
 .small-circle { 
   width: 40px;
   height: 40px;
-  background: #7B1C2D; 
+  background: #c0a9a9;
   font-size:20px;
-  color:#fff;
+  color:#f0e6e4;
   line-height:40px;
   text-align:center;
   -moz-border-radius: 20px; 
