@@ -12,17 +12,21 @@ h3, h4 {
 }
 #banner {
 	background-color: #877777;
-	border-bottom: 5px solid #fff;
-	border-top: 5px solid #fff;
+	border-bottom: 5px solid #c0a9a9;
+	border-top: 5px solid #c0a9a9;
 	padding: 15px 0 15px 0;
 }
 .user-presentation {
 	color: #f0e6e4;
     margin-left: 20px;
 }
+
+.user-presentation h1{
+    color: #c0a9a9;
+}
 .bloc { 
   width:auto;
-  border:1px solid #fff;
+  border:1px solid #c0a9a9;
   display:inline-block;
   vertical-align:top;
   text-align:left;
@@ -156,11 +160,8 @@ h3, h4 {
     .small-circle {
         width: 30px;
         height: 30px;
-        background: #7B1C2D;
         font-size:13px;
-        color:#fff;
         line-height:30px;
-        text-align:center;
         -moz-border-radius: 25px;
         -webkit-border-radius: 25px;
         border-radius: 25px;
